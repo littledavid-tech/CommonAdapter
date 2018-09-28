@@ -1,0 +1,2 @@
+# CommonAdapter
+一个通用的Android ListView和RecyclerView的是配置，学习自hongyang大神，Kotlin语言描述。
