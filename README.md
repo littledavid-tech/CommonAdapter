@@ -6,7 +6,32 @@
 
 这是一个自用的类库，会不断地向里面添加方法。
 
-如果你有任何需要欢迎大家pr或者反馈
+如果你有任何需要欢迎大家PR或者反馈BUG
+
+
+
+### How to use
+
+Add it in your root build.gradle at the end of repositories:
+
+```java
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
+```
+
+**Step 2.** Add the dependency
+
+```java
+	dependencies {
+	        implementation 'com.github.littledavid-tech:CommonAdapter:1.0'
+	}
+```
+
+
 
 ### Attribute
 

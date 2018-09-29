@@ -175,7 +175,7 @@ constructor(
         return this
     }
 
-    fun setOnCheckedChanged(viewId: Int, onCheckedChangeListener: CompoundButton.OnCheckedChangeListener): CommonViewHolder {
+        fun setOnCheckedChanged(viewId: Int, onCheckedChangeListener: CompoundButton.OnCheckedChangeListener): CommonViewHolder {
         this.getView<CompoundButton>(viewId).setOnCheckedChangeListener(onCheckedChangeListener)
         return this
     }
